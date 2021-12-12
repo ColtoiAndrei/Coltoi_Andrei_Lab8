@@ -9,8 +9,7 @@ namespace Coltoi_Andrei_Lab8.Data
 {
     public class Coltoi_Andrei_Lab8Context : DbContext
     {
-        public Coltoi_Andrei_Lab8Context (DbContextOptions<Coltoi_Andrei_Lab8Context> options)
-            : base(options)
+        public Coltoi_Andrei_Lab8Context (DbContextOptions<Coltoi_Andrei_Lab8Context> options) : base(options)
         {
         }
 
